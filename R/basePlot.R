@@ -19,6 +19,6 @@ function (K) {
     ylim=c(min(xy[,2]), max(xy[,2])), xlab='', ylab='') 
   cont = lines(xy[, 1], xy[, 2], col='blue') ## 'lines' only applies on existing plots.
 
-  zeroAxes(xy)
+  zeroAxes()
 }
 

@@ -1,5 +1,5 @@
 Package: gptk
-Version: 1.0
+Version: 1.01
 Date: 2010-12-08
 Title: Gaussian Processes Tool-Kit
 Author@R: c(person("Alfredo", "Kalaitzis", "A", email =
@@ -22,6 +22,6 @@ Description: The gptk package implements a general-purpose toolkit for
 License: AGPL-3
 URL:
 BugReports:
-Packaged: 2010-12-10 16:04:38 UTC; alkalait
+Packaged: 2010-12-17 18:48:13 UTC; alkalait
 Repository: CRAN
-Date/Publication: 2010-12-12 09:10:43
+Date/Publication: 2010-12-21 17:04:01

@@ -40,6 +40,6 @@ function(model,Xstar,mu,S,simpose=NULL,xlim=NULL,ylim=NULL,xlab='',ylab='',col='
     points(simpose, y, pch = 4, cex = 1.5, lwd=3, col = col)
   }
 
-  zeroAxes(cbind(model$X,model$y))
+  zeroAxes()
 }
 
