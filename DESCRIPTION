@@ -1,6 +1,6 @@
 Package: gptk
-Version: 1.02
-Date: 2010-12-08
+Version: 1.03
+Date: 2011-07-26
 Title: Gaussian Processes Tool-Kit
 Author@R: c(person("Alfredo", "Kalaitzis", "A", email =
         "alkalait@gmail.com"), person("Antti", "Honkela", email =
@@ -11,7 +11,7 @@ Author: Alfredo A. Kalaitzis <alkalait@gmail.com>, Antti Honkela
         <antti.honkela@tkk.fi>, Pei Gao <pg349@medschl.cam.ac.uk>, Neil
         D. Lawrence <N.Lawrence@dcs.shef.ac.uk>
 Maintainer: Alfredo A. Kalaitzis <alkalait@gmail.com>
-Depends: R (>= 2.8.0), fields
+Depends: R (>= 2.8.0), fields, Matrix
 Imports:
 Suggests: spam
 Description: The gptk package implements a general-purpose toolkit for
@@ -21,6 +21,6 @@ Description: The gptk package implements a general-purpose toolkit for
 License: AGPL-3
 URL:
 BugReports: alkalait@gmail.com
-Packaged: 2011-06-17 14:37:18 UTC; alkalait
+Packaged: 2011-07-26 15:40:32 UTC; alkalait
 Repository: CRAN
-Date/Publication: 2011-06-17 18:22:53
+Date/Publication: 2011-07-26 16:45:15

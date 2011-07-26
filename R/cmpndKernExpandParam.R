@@ -2,7 +2,7 @@ cmpndKernExpandParam <-
 function (kern, params) {
   if ( is.list(params) )
     params <- params$values
-  params <- params %*% t(kern$paramGroups)
+  params <- params %*% Matrix(t(kern$paramGroups))
   startVal <- 1
   endVal <- 0
   kern$whiteVariance <- 0
