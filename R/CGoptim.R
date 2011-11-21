@@ -88,4 +88,3 @@ function (x, fn, grad, options, ...) {
   ##  cat("\n Optimisation ends! \n")
   return (ans)
 }
-

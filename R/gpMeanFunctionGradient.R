@@ -44,4 +44,3 @@ function(model) {
 
   return (g)
 }
-

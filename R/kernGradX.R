@@ -5,4 +5,3 @@ function (kern, x1, x2) {
   k <- func(kern, x1, x2)
   return (k)
 }
-

@@ -11,4 +11,3 @@ function(noise, y) {
 
   return (noise)
 }
-

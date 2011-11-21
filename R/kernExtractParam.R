@@ -22,4 +22,3 @@ function (kern, only.values=TRUE, untransformed.values=FALSE) {
 
   return (params)
 }
-

@@ -29,4 +29,3 @@ function (kern, x) {
 
   return (k)
 }
-

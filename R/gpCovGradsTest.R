@@ -67,4 +67,3 @@ function(model) {
 
   return (model)
 }
-

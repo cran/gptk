@@ -56,4 +56,3 @@ function(ind=c(1,2), path = getwd(),
   if (gif)
     system(paste('convert -delay 80 ',path,'/',filename,'*.png ', path,'/',filename,'.gif', sep=''))
 }
-

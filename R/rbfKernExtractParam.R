@@ -8,4 +8,3 @@ function (kern, only.values=TRUE,
 
   return (params)
 }
-

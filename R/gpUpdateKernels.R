@@ -72,4 +72,3 @@ function (model, X, X_u) {
 
   return (model)
 }
-

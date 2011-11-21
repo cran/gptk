@@ -25,4 +25,3 @@ function (kern, params, untransformed.values=FALSE) {
   return (kern)
   
 }
-

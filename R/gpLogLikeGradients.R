@@ -201,5 +201,4 @@ function(model, X=model$X, M, X_u, gX_u.return=FALSE, gX.return=FALSE, g_beta.re
     gParam = c(gX_u, gParam)
 
   return (as.numeric(gParam))
-} # function
-
+}

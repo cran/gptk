@@ -22,4 +22,3 @@ function (kern, x, covDiag) {
 
   return (g)
 }
-

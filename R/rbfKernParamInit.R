@@ -25,4 +25,3 @@ function (kern) {
 
   return (kern)
 }
-

@@ -139,4 +139,3 @@ function (x, fn, grad, options, ...) {
   warning("Maximum number of iterations has been exceeded.\n")
   return (ans)
 }
-

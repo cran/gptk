@@ -7,4 +7,3 @@ function (model) {
   func <- get(funcName, mode="function")
   return (func(model))
 }
-

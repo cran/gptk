@@ -11,4 +11,3 @@ function (kern, spaceNum=0) {
   cat(spacing)
   cat("RBF variance: ", kern$variance, "\n", sep="")
 }
-

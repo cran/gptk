@@ -94,4 +94,3 @@ function (kern, x, x2=x) {
 
   return (K)
 }
-

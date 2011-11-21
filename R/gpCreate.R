@@ -145,4 +145,3 @@ function(q, d, X, y, options) {
 
   return (model)
 }
-

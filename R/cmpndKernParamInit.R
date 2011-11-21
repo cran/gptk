@@ -48,4 +48,3 @@ function (kern) {
   return (kern)
   
 }
-

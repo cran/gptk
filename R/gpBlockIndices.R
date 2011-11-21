@@ -14,4 +14,3 @@ function(model, blockNo) {
 
   return(ind)
 }
-

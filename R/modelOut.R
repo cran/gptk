@@ -17,4 +17,3 @@ function(model, X, Phi.return=FALSE, ...) {
   else
     return(Y)
 }
-

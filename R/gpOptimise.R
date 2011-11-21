@@ -32,4 +32,3 @@ function(model, display=TRUE, iters=2000, gradcheck=FALSE) {
 
   return (model)
 }
-

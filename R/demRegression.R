@@ -32,7 +32,7 @@ function(path=getwd(), filename='demRegression', png=FALSE, gif=FALSE) {
       yTrain = as.matrix(yTrue[indTrain[[i]]])
       xTrain = as.matrix(x[indTrain[[i]]])
       kern = kernCreate(x, 'rbf')
-      ## Change inverse variance (1/(lengthScale^2)))
+      ## Change inverse variance (1/lengthScale, Note: lengthscale is a squared quantity, i.e. always positive)
       kern$inverseWidth = 5
 
       xTest = as.matrix(seq(-2, 2, length=200))
@@ -103,4 +103,3 @@ function(path=getwd(), filename='demRegression', png=FALSE, gif=FALSE) {
   if (gif)
     system(paste('convert -delay 80 ',path,'/',filename,'*.png ', path,'/',filename,'.gif', sep=''))
 }
-

@@ -6,4 +6,3 @@ function (kern, spaceNum=0) {
   for(i in seq(along=kern$comp)) 
     kernDisplay(kern$comp[[i]], spaceNum+2)
 }
-

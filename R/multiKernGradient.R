@@ -119,4 +119,3 @@ function (kern, x, x2, covGrad) {
   g <- (g %*% kern$paramGroups)[1,]
   return (g)
 }
-

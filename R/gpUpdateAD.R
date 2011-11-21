@@ -214,4 +214,3 @@ function (model, X=model$X) {
 
   return (model)
 }
-

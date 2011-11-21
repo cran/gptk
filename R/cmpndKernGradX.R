@@ -24,4 +24,3 @@ function (kern, X, X2) {
  
   return (gX)
 }
-

@@ -9,4 +9,3 @@ function (kern, spaceNum=0) {
     kernDisplay(kern$comp[[i]], spaceNum)
   }
 }
-

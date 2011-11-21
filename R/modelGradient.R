@@ -20,4 +20,3 @@ function (params, model, ...) {
 
   return (g)
 }
-

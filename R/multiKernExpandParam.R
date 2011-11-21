@@ -15,4 +15,3 @@ function (kern, params) {
 
   return (kern)
 }
-

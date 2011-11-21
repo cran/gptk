@@ -30,4 +30,3 @@ function (kern, x, x2, covGrad) {
 
   return (g)
 }
-

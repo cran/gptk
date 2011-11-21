@@ -8,4 +8,3 @@ function (constraint) {
     return (list(func="boundedTransform", hasArgs=TRUE))
   }
 }
-

@@ -11,4 +11,3 @@ function (whiteKern1, whiteKern2, x1, x2, covGrad) {
   g <- list(g1=0, g2=0)
   return (g)
 }
-

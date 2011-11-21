@@ -10,4 +10,3 @@ function (kern, x, x2) {
   }
   return (k)
 }
-

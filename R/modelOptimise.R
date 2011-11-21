@@ -31,4 +31,3 @@ function (model, options, ...) {
 #   else
   return (model)
 }
-

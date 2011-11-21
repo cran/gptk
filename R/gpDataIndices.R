@@ -29,4 +29,3 @@ function(model, dimNo, blockNo) {
 
   return(ind)
 }
-

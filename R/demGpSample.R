@@ -36,4 +36,3 @@ function( bw=FALSE, path=getwd(), filename='gpSample', png=FALSE) {
 
   return (list(K=K, f=f, x=x))
 }
-

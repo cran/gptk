@@ -4,4 +4,3 @@ function (kern, only.values=TRUE,
   return (cmpndKernExtractParam(kern, only.values=only.values,
                                 untransformed.values=untransformed.values))
 }
-

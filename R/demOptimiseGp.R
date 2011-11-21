@@ -80,4 +80,3 @@ function(path=getwd(), filename='demOptimiseGp', png=FALSE, gif=FALSE) {
     system(paste('convert -delay 80 ',path,'/',filename,'2_*.png ', path,'/',filename,'2.gif', sep=''))
   }
 }
-

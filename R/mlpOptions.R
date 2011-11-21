@@ -7,4 +7,3 @@ function(numHidden=20) {
 
   return (options)
 }
-

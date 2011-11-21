@@ -10,4 +10,3 @@ function(model) {
 
   return (g)
 }
-

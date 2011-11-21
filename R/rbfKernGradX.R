@@ -8,4 +8,3 @@ function (kern, x1, x2) {
 
   return (gX)
 }
-

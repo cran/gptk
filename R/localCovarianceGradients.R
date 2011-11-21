@@ -15,4 +15,3 @@ function(model, y, dimension) {
   gK = gK * .5
   return (gK)
 }
-

@@ -57,4 +57,3 @@ function (model, params) {
 
   return (model)
 }
-

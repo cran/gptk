@@ -15,4 +15,3 @@ function(model, x) {
 
   return(y)
 }
-

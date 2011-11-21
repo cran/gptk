@@ -42,4 +42,3 @@ function(model,Xstar,mu,S,simpose=NULL,xlim=NULL,ylim=NULL,xlab='',ylab='',col='
 
   zeroAxes()
 }
-

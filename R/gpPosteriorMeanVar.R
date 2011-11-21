@@ -95,4 +95,3 @@ function(model, X, varsigma.return=FALSE) {
   else
     return (mu)
 }
-

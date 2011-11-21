@@ -22,4 +22,3 @@ function (kern, X) {
  
   return (gX)
 }
-

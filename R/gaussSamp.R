@@ -23,4 +23,3 @@ function(mu=matrix(0,nrow=dim(Sigma)[1]), Sigma, numSamps) {
 
   return (Re(y))
 }
-

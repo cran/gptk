@@ -108,4 +108,3 @@ function(x, kernType, kernOptions=NULL) {
   return (kern)
   
 }
-

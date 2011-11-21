@@ -11,4 +11,3 @@ function (kern, x, ...) {
 
   return (g)
 }
-

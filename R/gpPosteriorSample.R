@@ -85,4 +85,3 @@ function(kernType, numSamps=10, params=NULL, lims=c(-3,3), path=getwd(), png=FAL
     system(paste('eps2png ',path,'/',fileName, '.eps',sep=''))
   }
 }
-

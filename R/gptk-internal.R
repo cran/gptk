@@ -9,7 +9,6 @@ function (x) {
   }
   return ( y )
 }
-
 .dist2 <-
 function (x, x2) {
   xdim <- dim(as.matrix(x))
@@ -25,7 +24,6 @@ function (x, x2) {
 
   return (n2)
 }
-
 .distfit <-
 function(data, dist = "normal") {
   if (dist == "gamma") {
@@ -44,7 +42,6 @@ function(data, dist = "normal") {
 
   return (t)
 }
-
 .distfit_obj <-
 function(theta, y, cdf) {
   p <- c(.05, .25, .50, .75, .95)
@@ -53,7 +50,6 @@ function(theta, y, cdf) {
 
   return (r)
 }
-
 .fn_line <-
 function (linemin, fun, para0, direction, ...) {
   ## y = fn (x)
@@ -65,7 +61,6 @@ function (linemin, fun, para0, direction, ...) {
   
   return (ans)
 }
-
 .gradLnDiffErfs <-
 function(x1, x2, fact1, fact2) {
   m <- pmin(as.matrix(x1)^2, as.matrix(x2)^2)
@@ -75,7 +70,6 @@ function(x1, x2, fact1, fact2) {
   return (g)
 
 }
-
 .jitChol <-
 function ( M, Num=10, silent=FALSE ) {
   jitter <- 0
@@ -105,7 +99,6 @@ function ( M, Num=10, silent=FALSE ) {
 
   return (list(chol=Ch, jitter=jitter))
 }
-
 .jitCholInv <-
 function ( M, Num=10, silent=FALSE ) {
   jitter <- 0
@@ -150,7 +143,6 @@ function ( M, Num=10, silent=FALSE ) {
     return (ans)
   }
 }
-
 .kernFactors <-
 function (kern, factorType) {
   factors <- list()
@@ -173,7 +165,6 @@ function (kern, factorType) {
   }
   return (factors)
 }
-
 .kernTestCombinationFunction <-
 function (kern1, kern2) {
   if (kern1$type == "selproj" && kern2$type == "selproj")
@@ -187,7 +178,6 @@ function (kern1, kern2) {
     return (TRUE)
   }
 }
-
 .multiKernCacheBlock <-
 function(kern, fhandle, i, j, x1, x2=NULL, arg1, arg2=NULL) {
 
@@ -226,7 +216,6 @@ function(kern, fhandle, i, j, x1, x2=NULL, arg1, arg2=NULL) {
   assign("cache", global_cache, envir=kern$cache)
   return(K)
 }
-
 .multiKernComputeBlock <-
 function (kern, i, j, x1, x2=NULL) {
   if ( i==j ) {
@@ -275,7 +264,6 @@ function (kern, i, j, x1, x2=NULL) {
   }
   return (K)
 }
-
 .multiKernGradientBlock <-
 function (kern, x, x2, covGrad, i, j) {
   if ( nargs()<6 ) {
@@ -355,4 +343,3 @@ function (kern, x, x2, covGrad, i, j) {
   }
   return (g)
 }
-

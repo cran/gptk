@@ -14,4 +14,3 @@ function (kern, x, x2=NULL) {
   
   return (k)
 }
-

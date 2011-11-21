@@ -7,4 +7,3 @@ function(noise, mu, varSigma) {
 
   return (y)
 }
-

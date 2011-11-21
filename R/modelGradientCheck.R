@@ -46,4 +46,3 @@ function(model, ...) {
   }
   print(paste('Param max diff: ', round(paramMaxDiff,6), sep=''))
 }
-

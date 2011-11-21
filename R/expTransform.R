@@ -22,4 +22,3 @@ function (x, transform="atox") {
 
   return (y)
 }
-

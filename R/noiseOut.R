@@ -6,4 +6,3 @@ function(noise, mu, varsigma) {
 
   return (y)
 }
-

@@ -34,4 +34,3 @@ function(noiseType, y) {
 
   return (noise)
 }
-

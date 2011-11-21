@@ -227,4 +227,3 @@ function(model, M) {
 
   return (list(gK_uu=gK_uu, gK_uf=gK_uf, g_Lambda=g_Lambda, gBeta=gBeta))
 }
-

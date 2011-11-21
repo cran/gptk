@@ -93,4 +93,3 @@ function(q=2, d=3, N=10, k=5) {
   }
   return (modelRet)
 }
-

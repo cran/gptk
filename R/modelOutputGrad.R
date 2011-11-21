@@ -17,4 +17,3 @@ function(model, X, dim) {
 
   return (g)
 }
-

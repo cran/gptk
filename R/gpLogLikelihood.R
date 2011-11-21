@@ -166,4 +166,3 @@ function(model) {
     
   return (ll)
 }
-

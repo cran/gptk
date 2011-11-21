@@ -76,4 +76,3 @@ function(path=getwd(), filename='demInterpolation', png=FALSE, gif=FALSE) {
   if (png)
     system(paste('convert -delay 80 ',path,'/',filename,'*.png ', path,'/',filename,'.gif', sep=''))
 }
-

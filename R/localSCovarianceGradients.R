@@ -4,4 +4,3 @@ function(model) {
   gK = gK * .5
   return (gK)
 }
-

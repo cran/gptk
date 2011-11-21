@@ -217,4 +217,3 @@ function(kernType, numIn=4, tieParamNames=list(), testindex=NULL) {
   return(kern)
 # We don't test kernCompute(kern, x, x2) here at all!
 }
-

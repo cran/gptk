@@ -9,4 +9,3 @@ function (kern) {
 
   return (kern)
 }
-

@@ -27,4 +27,3 @@ function (x, transform="atox", bounds) {
 
   return (y)
 }
-

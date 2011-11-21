@@ -48,4 +48,3 @@ function (approx="ftc") {
   options$computeS = FALSE
   return (options)
 }
-

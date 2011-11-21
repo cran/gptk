@@ -44,4 +44,3 @@ function(model, only.values=TRUE, ...) {
 
   return (params)
 }
-
