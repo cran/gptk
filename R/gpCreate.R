@@ -73,6 +73,7 @@ function(q, d, X, y, options) {
   if (is.list(options$kern) && ("nParams" %in% options$kern))
     model$kern = options$kern
   else
+# browser()
     model$kern = kernCreate(model$X, options$kern)
 
 
@@ -97,6 +98,7 @@ function(q, d, X, y, options) {
 #     ## bug: numData has no value
 #     model$expectations$fBarfBar = array(1,dim=(c(numData, numData, dim(model$y)[2])))
 #   }
+
 
   if (options$approx == "ftc") {
     model$k = 0
@@ -141,6 +143,7 @@ function(q, d, X, y, options) {
   initParams = gpExtractParam(model)
 
   ## This forces kernel computation.
+# browser()
   model = gpExpandParam(model, initParams)
 
   return (model)

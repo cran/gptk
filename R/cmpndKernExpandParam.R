@@ -2,7 +2,7 @@ cmpndKernExpandParam <-
 function (kern, params) {
   if ( is.list(params) )
     params <- params$values
-  params <- params %*% Matrix(t(kern$paramGroups))
+  params <- params %*% Matrix(t(kern$paramGroups))	## Params still log-transformed at this point.
   startVal <- 1
   endVal <- 0
   kern$whiteVariance <- 0

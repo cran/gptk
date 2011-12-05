@@ -11,7 +11,7 @@ function (kern, params, untransformed.values=FALSE) {
       funcName <- optimiDefaultConstraint(kern$transforms[[i]]$type)
       func <- get(funcName$func, mode="function")
       if (funcName$hasArgs)
-        params[index] <- func(params[index], "atox", kern$transformArgs[[i]])
+        params[index] <- func(params[index], "atox", kern$transformArgs[[i]]) ## log-transformed params just been exp-transformed
       else {
         params[index] <- func(params[index], "atox")
       }

@@ -19,7 +19,7 @@ function(path=getwd(), filename='demRegression', png=FALSE, gif=FALSE) {
   ## Sample some true function values.
   yTrue = gaussSamp(Sigma=K, numSamps=1)
 
-  ## Create a test set
+  ## Create increasingly larger train sets, as subsets of the whole data set.
   steps = 2^c(round(log2(l-1)):0); s=0
   indTrain=list(); length(indTrain)=length(steps)
   indTrain = lapply(indTrain, function(x) x=(seq(1,l,by=steps[(s<<-s+1)]))) ## '<<-' transcends local scope
@@ -38,11 +38,11 @@ function(path=getwd(), filename='demRegression', png=FALSE, gif=FALSE) {
       xTest = as.matrix(seq(-2, 2, length=200))
 
       Kx = kernCompute(kern, xTest, xTrain)
-      Ktrain = kernCompute(kern, xTrain, xTrain)
+      Ktrain = kernCompute(kern, xTrain)
 
       invKtrain = .jitCholInv(Ktrain + diag(dim(Ktrain)[1])*noiseVar, silent=TRUE)$invM
-      yPred = Kx%*%invKtrain%*%yTrain
-      yVar = kernDiagCompute(kern, xTest) - rowSums(Kx%*%invKtrain * Kx)
+      yPred = Kx %*% invKtrain %*% yTrain
+      yVar = kernDiagCompute(kern, xTest) - rowSums(Kx %*% invKtrain * Kx)
       model = gpCreate(dim(xTrain)[2], dim(yTrain)[2], xTrain, yTrain, options)
 
       dev.new(); plot.new()

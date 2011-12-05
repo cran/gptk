@@ -1,5 +1,6 @@
 gpExpandParam <-
 function (model, params) {
+
   if (is.list(params)) {
     model$params = params
     params = params$xmin
@@ -45,6 +46,7 @@ function (model, params) {
 
   ## Update the kernel representations.
   if (model$approx == "ftc") {
+# browser()
     model = gpUpdateKernels(model, model$X, model$X_u)
   } else if (model$approx %in% c("dtc", "dtcvar", "fitc", "pitc")) {
     model = gpUpdateKernels(model, model$X, model$X_u)
