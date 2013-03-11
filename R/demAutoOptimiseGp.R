@@ -1,6 +1,6 @@
 demAutoOptimiseGp <-
 function(path=getwd(), filename='demAutoOptimiseGp', png=FALSE, gif=FALSE) {
-## DEMAUTOOPTIMISEGP Shows that there is an optimum for the covariance function length scale.
+## DEMAUTOOPTIMISEGP Shows that there is an optimum for the covariance function length-scale.
 ## DESC Shows that by varying the length scale, an artificial data set has
 ## different likelihoods, yet there is an optimum for which the likelihood is
 ## maximised. This demo is similar to demOptimiseGp, only here, it is
@@ -44,7 +44,7 @@ function(path=getwd(), filename='demAutoOptimiseGp', png=FALSE, gif=FALSE) {
   }
 
   model = gpOptimise(model, display=TRUE, iters=400)
-  opthypers = gpExtractParam(model, only.value = FALSE);
+  opthypers = gpExtractParam(model, only.values = FALSE);
   opthypers = exp(opthypers);
   ll_opt = gpLogLikelihood(model)
   meanVar = gpPosteriorMeanVar(model, xtest, varsigma.return=TRUE) ## GP mean and variance.
