@@ -1,7 +1,7 @@
 demGpCov2D <-
 function(ind=c(1,2), path = getwd(),
   filename = paste('demGpCov2D', ind[1],'_', ind[2], sep=''), png=FALSE, gif=FALSE) {
-  require(fields)
+  #require(fields)
 
 #   for (i in 1:length(.libPaths())) { ## Get gptk library location.
 #     if ('gptk' %in% .packages(T, lib.loc=.libPaths()[i])) {

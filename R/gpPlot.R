@@ -2,7 +2,7 @@ gpPlot <-
 function(model,Xstar,mu,S,simpose=NULL,xlim=NULL,ylim=NULL,xlab='',ylab='',col='blue',title='') {
 ## GPPLOT Plots the GP mean and variance.
 
-## COPYRIGHT : Alfredo A. Kalaitzis 2010
+## COPYRIGHT : Alfredo Kalaitzis 2010
 
 ## GP
 

@@ -6,7 +6,7 @@ function (K) {
 ## square root of the two eigenvalues respectively.
 ## ARG K : the covariance matrix.
 ##
-## COPYRIGHT : Neil D. Lawrence, 2008; Alfredo A. Kalaitzis, 2010
+## COPYRIGHT : Neil D. Lawrence, 2008; Alfredo Kalaitzis, 2010
 
   eigVecs = eigen(K)
   U = eigVecs$vectors[ , 2:1] ## Reverse order of eigenvectors(columns).

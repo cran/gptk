@@ -6,7 +6,8 @@
   Plots the GP mean and variance.
 }
 \usage{
-  gpPlot(model, Xstar, mu, S, simpose=NULL,xlim=NULL,ylim=NULL,xlab='',ylab='',col='blue',title='')
+  gpPlot( model, Xstar, mu, S, simpose=NULL, xlim=NULL, ylim=NULL,
+          xlab='', ylab='', col='blue', title='' )
 }
 \arguments{
   \item{model}{the model structure for which GP mean and variance are to be plotted.}

@@ -9,7 +9,8 @@
   This function samples from that posterior.
 }
 \usage{
-  gpPosteriorSample(kernType, numSamps=10, params=NULL, lims=c(-3,3), path=getwd(), png=FALSE)
+  gpPosteriorSample( kernType, numSamps=10, params=NULL,
+                     lims=c(-3,3), path=getwd(), png=FALSE )
 }
 \arguments{
   \item{kernType}{the type of kernel to sample from.}

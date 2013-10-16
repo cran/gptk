@@ -1,6 +1,6 @@
 demGpSample <-
 function( bw=FALSE, path=getwd(), filename='gpSample', png=FALSE) {
-  require(fields)
+  #require(fields)
 
   x = as.matrix(seq(-1,1,length=25))
   kern = kernCreate(x, 'rbf')

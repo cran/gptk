@@ -12,7 +12,7 @@ function(mu=matrix(0,nrow=dim(Sigma)[1]), Sigma, numSamps) {
 ##
 ## SEEALSO : rnorm, eigen
 ##
-## COPYRIGHT : Neil D. Lawrence 2005, Alfredo A. Kalaitzis 2010
+## COPYRIGHT : Neil D. Lawrence 2005, Alfredo Kalaitzis 2010
 
   eigVecs = eigen(Sigma)
   U = eigVecs$vectors; V = eigVecs$values

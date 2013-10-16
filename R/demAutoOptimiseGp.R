@@ -8,7 +8,7 @@ function(path=getwd(), filename='demAutoOptimiseGp', png=FALSE, gif=FALSE) {
 ## through SCG (scaled conjugate gradients) numerical optimisation.
 ## Run multiple times to understand the effect of optimisation on randomly generated datasets.
 
-## COPYRIGHT : Alfredo A. Kalaitzis 2011
+## COPYRIGHT : Alfredo Kalaitzis 2011
 
 ## GP
   ## Set up model.

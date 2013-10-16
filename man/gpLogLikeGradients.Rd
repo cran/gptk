@@ -11,7 +11,8 @@
   variable locations.
 }
 \usage{
-gpLogLikeGradients(model, X=model$X, M, X_u, gX_u.return=FALSE, gX.return=FALSE, g_beta.return=FALSE)
+gpLogLikeGradients( model, X=model$X, M, X_u, gX_u.return=FALSE,
+                    gX.return=FALSE, g_beta.return=FALSE )
 }
 \arguments{
   \item{model}{the model structure for which gradients are computed.}

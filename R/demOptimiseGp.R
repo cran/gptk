@@ -5,7 +5,7 @@ function(path=getwd(), filename='demOptimiseGp', png=FALSE, gif=FALSE) {
 ## set has different likelihoods, yet there is an optimum for which
 ## the likelihood is maximised.
 
-## COPYRIGHT : Neil D. Lawrence 2006, 2008, Alfredo A. Kalaitzis 2010
+## COPYRIGHT : Neil D. Lawrence 2006, 2008, Alfredo Kalaitzis 2010
 
 ## GP
 

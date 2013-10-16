@@ -8,7 +8,7 @@ function (kernType, numSamps=10, params=NULL, lims=c(-3,3), path=getwd(), png=FA
 ## ARG params : parameter vector for the kernel.
 ## ARG lims : limits of the x axis.
 ##
-## COPYRIGHT : Neil D. Lawrence, 2008; Alfredo A. Kalaitzis, 2010
+## COPYRIGHT : Neil D. Lawrence, 2008; Alfredo Kalaitzis, 2010
 
   t_star = matrix(seq(lims[1], lims[2], length=200), ncol=1)
 
