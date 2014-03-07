@@ -1,6 +1,6 @@
-69052ebc05e18aeb97eab7d23d672de2 *DESCRIPTION
+ab6b484b4f7b997de5330bb8a3c77c8a *DESCRIPTION
 32784f523ab87a2570e95ca6aaf7b567 *LICENSE
-8b54e5a89fbda3af5e077053d40bec76 *NAMESPACE
+8173b89110ba7c09ffe4c7ad42603509 *NAMESPACE
 a6cf5823f00b9e14e23c863887f34584 *R/CGoptim.R
 f3cfe3747d1a50c441fdd1ad9a10416b *R/SCGoptim.R
 594c58f6e1fc8daea199195082d975f1 *R/basePlot.R
@@ -9,10 +9,10 @@ f8ee6921cd15c7ada3057e6449ab3e10 *R/cmpndKernCompute.R
 52979a164e21f8b8d11d78a1082ba81b *R/cmpndKernDiagCompute.R
 39933eab1a978cf605469df829937188 *R/cmpndKernDiagGradX.R
 3dc8fc0b5931b2f543259bb8254ebca2 *R/cmpndKernDisplay.R
-5f55a411c917cfee247be27ddd95ed4d *R/cmpndKernExpandParam.R
+d7f67627277854e92fc5327022b140fb *R/cmpndKernExpandParam.R
 8d06a1c856e4b2e61a9153b868a29e02 *R/cmpndKernExtractParam.R
 e6d4166d6ea3c354dd831e42570717f5 *R/cmpndKernGradX.R
-4ea3075690b0253404024fdf494eba65 *R/cmpndKernGradient.R
+7cd27c6697967b25f4b980b03b1e4bd5 *R/cmpndKernGradient.R
 d81d6d357a7888632bcc826f985a6f44 *R/cmpndKernParamInit.R
 ce41f116f06b77b86fab69142ba5520f *R/cmpndNoiseParamInit.R
 ebd9260a139c9b8d1cd016368ad80108 *R/demAutoOptimiseGp.R
@@ -124,7 +124,7 @@ a0a44d4a9ccdc1ce34a6b6e1e631e38d *inst/doc/gpPosteriorSampleRbfSamples5InverseWi
 f1b3d8752834365d693b1e629281e675 *inst/doc/gpSample.png
 e17f3394c1f9e8a41a967ea62e0d21b2 *inst/doc/gpSampleRbfSamples10InverseWidth16Variance1.png
 f7ca37f7f6cb9ce0d7b474a7a909c136 *inst/doc/gpSampleRbfSamples10InverseWidth1Variance1.png
-b24757d72680c218434fa72a59998b79 *inst/doc/index.html
+bdfeaa4ee4f3301008b53ce9a1f5ba45 *inst/doc/index.html
 81c74cdc27f6f65f5244edd28d1776db *man/SCGoptim.Rd
 5c168365b6591a652d7423688d671e14 *man/basePlot.Rd
 4e05e6eed5c1d77ebd858c854f54583f *man/cmpndKernParamInit.Rd

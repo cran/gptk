@@ -1,6 +1,5 @@
 cmpndKernGradient <-
 function (kern, x, x2, covGrad) {
-
   if ( nargs()<4 ) 
     covGrad <- x2
   
@@ -12,15 +11,19 @@ function (kern, x, x2, covGrad) {
     endVal <- endVal + kern$comp[[i]]$nParams
     if ( !is.na(kern$comp[[i]]$index) ) {
       if ( nargs() < 4 ) {
-        g[startVal:endVal] <- kernGradient(kern$comp[[i]], x[,kern$comp[[i]]$index], covGrad)
+	 g[seq(startVal,len=kern$comp[[i]]$nParams)] <- kernGradient(kern$comp[[i]], x[,kern$comp[[i]]$index], covGrad)
+        ## Used to be: g[startVal:endVal] <- kernGradient(kern$comp[[i]], x[,kern$comp[[i]]$index], covGrad)
       } else {
-        g[startVal:endVal] <- kernGradient(kern$comp[[i]], x[,kern$comp[[i]]$index], x2[,kern$comp[[i]]$index], covGrad)
+        g[seq(startVal,len=kern$comp[[i]]$nParams)] <- kernGradient(kern$comp[[i]], x[,kern$comp[[i]]$index], x2[,kern$comp[[i]]$index], covGrad)
+        ## Used to be: g[startVal:endVal] <- kernGradient(kern$comp[[i]], x[,kern$comp[[i]]$index], x2[,kern$comp[[i]]$index], covGrad)
       }
     } else {
       if ( nargs() < 4 ) {
-        g[startVal:endVal] <- kernGradient(kern$comp[[i]], x, covGrad)
+        g[seq(startVal,len=kern$comp[[i]]$nParams)] <- kernGradient(kern$comp[[i]], x, covGrad)
+        ## Used to be: g[startVal:endVal] <- kernGradient(kern$comp[[i]], x, covGrad)
       } else {
-        g[startVal:endVal] <- kernGradient(kern$comp[[i]], x, x2, covGrad)
+        g[seq(startVal,len=kern$comp[[i]]$nParams)] <- kernGradient(kern$comp[[i]], x, x2, covGrad)
+        ## Used to be: g[startVal:endVal] <- kernGradient(kern$comp[[i]], x, x2, covGrad)
       }
     }
     startVal <- endVal + 1       
